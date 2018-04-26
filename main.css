@@ -1,0 +1,10 @@
+#PageTitle{
+    color:#a38d2c;
+    font-size: 50;
+    border-bottom: 5px solid #a38d2c;
+    background-color: black;
+    border-radius: 25px;
+}
+html{
+    background-image: url(Grass.jpg);
+}
