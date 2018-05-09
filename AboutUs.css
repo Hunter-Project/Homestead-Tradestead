@@ -1,3 +1,19 @@
+#PageTitle{
+    color:#40BFAA;
+    font-size: 60;
+    border-bottom: 5px solid #40BFAA;
+    background-color: rgba(50, 50, 50, 1);
+    border-radius: 25px;
+}
+html{
+    background-color: #1D1339;
+    color:#40BFAA;
+}
+.ProfPics{
+    font-size:30;
+}
+
+/* VVV Blue Nav Bar VVV */
 #NAV{
     list-style-type: none;
     margin: auto;
@@ -23,9 +39,9 @@
 }
 #NAVItem:last-child{
     border-bottom:none;
-    color:#a38d2c;
+    color:#40BFAA;
 }
 #NAVItem a{
     text-decoration: none;
-    color:#a38d2c;
+    color:#40BFAA;
 }

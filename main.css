@@ -1,45 +1,16 @@
-#PageTitle{
-    color:#a38d2c;
-    font-size: 50;
-    border-bottom: 5px solid #a38d2c;
-    background-color: black;
-    border-radius: 25px;
-}
 html{
     background-image: url(Pics/Grass.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
-
-VV NavBar VV
-
-#NAV{
-    list-style-type: none;
-    margin: auto;
-    padding: 0;
-    width:600;
-    background-color: rgba(44, 44, 44, 0.5);
+#WelcomeBox{
+    background-color:rgb(255, 255, 255,1);
+    color:Black;
+    padding:25;
+    width: 75%;
+    height:auto;
     text-align: center;
-    border:50px;
-    border-color: Black;
-    border-radius: 50px;
-}
-#NAVItem{
-    display: inline-block;
-    width:auto;
-    padding: 5px 15px;
-    text-align: center;
-    font-size: 25;
-}
-#NAVItem:hover{
-    background-color:rgb(255, 255, 255, 0.5);
-}
-.CurrentPage{
-    background-color:black;
-}
-#NAVItem:last-child{
-    border-bottom:none;
-    color:#a38d2c;
-}
-#NAVItem a{
-    text-decoration: none;
-    color:#a38d2c;
+    margin:0 auto;
+    border-radius: 25px;
+    border:2px solid black;
 }
